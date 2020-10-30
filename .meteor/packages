@@ -1,0 +1,16 @@
+standard-app-packages
+iron:router
+twbs:bootstrap
+mrt:moment
+msavin:mongol
+mrt:nprogress
+accounts-password
+accounts-ui
+copleykj:livestamp
+momentjs:moment
+mizzao:bootboxjs
+cfs:gridfs
+cfs:standard-packages
+alanning:roles
+jparker:crypto-md5
+accounts-meteor-developer

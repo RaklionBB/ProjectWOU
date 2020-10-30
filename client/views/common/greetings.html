@@ -1,0 +1,26 @@
+<template name="greetings">
+
+  <div class="greetings text-white">
+      <div>
+          {{#if greetWeekend}}
+              <strong>Happy Weekend :)</strong>
+          {{/if}}
+      </div>
+      <div>
+          {{#if greetMorning}}
+              <strong>Hello, Good Morning :)</strong>
+          {{/if}}
+      </div>
+      <div>
+          {{#if greetAfternoon}}
+              <strong>Hello, Good Afternoon :)</strong>
+          {{/if}}
+      </div>
+      <div>
+          {{#if greetEvening}}
+              <strong>Hello, Good Evening :)</strong>
+          {{/if}}
+      </div>
+  </div>
+
+</template>

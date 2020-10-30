@@ -1,0 +1,172 @@
+.bg-layer {
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	/*border: 1px solid red;*/
+	padding: 10px;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 35px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15,
+.col-xs-30,
+.col-sm-30,
+.col-md-30,
+.col-lg-30 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+.col-xs-30 {
+    width: 40%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-30 {
+        width: 40%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-30 {
+        width: 40%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-30 {
+        width: 40%;
+        float: left;
+    }
+}
+
+
+#bg-login{
+	position: fixed;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index:-100;
+}
+
+ #bg-login img{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 margin: auto;
+	 min-width: 100%;
+	 min-height: 100%;
+	 opacity:10%;
+	 z-index: -100
+ }
+
+ #bg-register{
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0%;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index:-100;
+ }
+
+ #bg-register img{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 margin: auto;
+	 min-width: 100%;
+	 min-height: 100%;
+	 opacity:10%;
+ }
+
+ .login-container .panel-body{
+	background-color: rgba(0, 0, 0, 0.2);
+	border:none;
+	/*bottom: -180px;*/
+}
+
+#logout-toggle {
+	background-color: rgba(0,0,0,0.5);
+	border:none;
+	color:white;
+}
+#logout-toggle li a {
+	color: #fff;
+}
+#logout-toggle li.divider {
+	background-color: #ccc;
+}
+#logout-toggle li a i {
+	color: #efefef;
+}
+
+.greetings {
+ /*z-index: 100;*/
+ /*position: absolute;*/
+ font-size:60px;
+ font-weight:bold;
+ font-family:sans-serif;;
+ margin-top:150px;
+ margin-bottom:30px;
+}
+
+#prossimo-login {
+	color: white;
+	font-weight: bold;
+	font-size : 20px;
+	font-family: sans-serif;
+}
+
+#prossimo-register {
+	color: white;
+	font-weight: bold;
+	font-size : 20px;
+	font-family: sans-serif;
+}
+
+.homeheader-admin {
+	background-image: url('images/backgrounds/boxed_bg_retina.png');
+	margin-bottom: 40px;
+}
+
+.homeheader-admin .display-block{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+.homeheader-admin h1.panel-title, .h1.panel-title .content-group {
+	margin-bottom: 10px !important;
+}

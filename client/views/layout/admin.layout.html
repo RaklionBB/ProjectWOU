@@ -1,0 +1,12 @@
+<template name="admin.layout">
+  	{{> adminHeader }}
+	<div class="page-container">
+		<div class="page-content">
+			{{> adminMenu }}
+
+			<div class="content-wrapper" id="adminHome">
+				{{> yield }}
+			</div>
+		</div>
+	</div>
+</template>
